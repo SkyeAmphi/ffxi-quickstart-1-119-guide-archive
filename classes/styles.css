@@ -1,0 +1,5 @@
+.image-popup img {
+    width: auto;
+    height: auto;
+    max-width: 100%; /* Ensure it scales within its container */
+}
