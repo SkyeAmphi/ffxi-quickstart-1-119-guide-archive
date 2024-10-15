@@ -64,6 +64,7 @@ table.collapsed tr.collapsible {
 
 table {
     -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
     text-size-adjust: none;
 }
 
