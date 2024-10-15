@@ -22,11 +22,6 @@
 	<meta name="robots" content="noindex, nofollow" />
 	<script async
 		src="https://www.bg-wiki.com/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=timeless"></script>
-	<script>
-		mw.loader.load('index.php?title=MediaWiki:Calculator.css&action=raw&ctype=text/css', 'text/css');
-		mw.loader.load('index.php?title=MediaWiki:Tooltip.css&action=raw&ctype=text/css', 'text/css');
-		mw.loader.load('index.php?title=MediaWiki:Button.css&action=raw&ctype=text/css', 'text/css');
-	</script>
 </head>
 
 <body
@@ -11178,7 +11173,73 @@ You can view its source [e]" accesskey="e"><span>View source</span></a></li>
 			</div>
 		</div>
 	</div>
-	<script>(RLQ = window.RLQ || []).push(function () { mw.config.set({ "wgPageParseReport": { "limitreport": { "cputime": "0.548", "walltime": "0.711", "ppvisitednodes": { "value": 2839, "limit": 1000000 }, "postexpandincludesize": { "value": 43131, "limit": 2097152 }, "templateargumentsize": { "value": 3109, "limit": 2097152 }, "expansiondepth": { "value": 6, "limit": 100 }, "expensivefunctioncount": { "value": 0, "limit": 100 }, "unstrip-depth": { "value": 0, "limit": 20 }, "unstrip-size": { "value": 0, "limit": 5000000 }, "timingprofile": ["100.00%   22.283      1 -total", " 35.32%    7.871      6 Template:Equipment_Set", " 11.30%    2.518     30 Template:ItemIcon", "  6.33%    1.410      1 Template:Icon", "  5.80%    1.292      1 Template:Fire", "  4.25%    0.948      1 Template:Disambiguation", "  3.94%    0.877      1 Template:Color", "  3.39%    0.755      2 Template:H:text", "  2.98%    0.663      1 Template:Tmp", "  2.95%    0.658      1 Template:Earth"] }, "cachereport": { "timestamp": "20240531170319", "ttl": 259200, "transientcontent": false } } }); mw.config.set({ "wgBackendResponseTime": 810 }); });</script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			mw.loader.load('index.php?title=MediaWiki:Calculator.css&action=raw&ctype=text/css', 'text/css');
+			mw.loader.load('index.php?title=MediaWiki:Tooltip.css&action=raw&ctype=text/css', 'text/css');
+			mw.loader.load('index.php?title=MediaWiki:Button.css&action=raw&ctype=text/css', 'text/css');
+		});
+	</script>
+	<script>
+		(RLQ = window.RLQ || []).push(function () {
+			mw.config.set({
+				"wgPageParseReport": {
+					"limitreport": {
+						"cputime": "0.548",
+						"walltime": "0.711",
+						"ppvisitednodes": {
+							"value": 2839,
+							"limit": 1000000
+						},
+						"postexpandincludesize": {
+							"value": 43131,
+							"limit": 2097152
+						},
+						"templateargumentsize": {
+							"value": 3109,
+							"limit": 2097152
+						},
+						"expansiondepth": {
+							"value": 6,
+							"limit": 100
+						},
+						"expensivefunctioncount": {
+							"value": 0,
+							"limit": 100
+						},
+						"unstrip-depth": {
+							"value": 0,
+							"limit": 20
+						},
+						"unstrip-size": {
+							"value": 0,
+							"limit": 5000000
+						},
+						"timingprofile": [
+							"100.00%   22.283      1 -total",
+							" 35.32%    7.871      6 Template:Equipment_Set",
+							" 11.30%    2.518     30 Template:ItemIcon",
+							"  6.33%    1.410      1 Template:Icon",
+							"  5.80%    1.292      1 Template:Fire",
+							"  4.25%    0.948      1 Template:Disambiguation",
+							"  3.94%    0.877      1 Template:Color",
+							"  3.39%    0.755      2 Template:H:text",
+							"  2.98%    0.663      1 Template:Tmp",
+							"  2.95%    0.658      1 Template:Earth"
+						]
+					},
+					"cachereport": {
+						"timestamp": "20240531170319",
+						"ttl": 259200,
+						"transientcontent": false
+					}
+				}
+			});
+			mw.config.set({
+				"wgBackendResponseTime": 810
+			});
+		});
+	</script>
 </body>
 
 </html>
